@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color:#333;
+    background-color: #fff;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+// class style
+.p0{
+    padding:0!important;
+}
+
+.m0{
+    margin: 0!important;
+}
+
+.mt0{
+    margin-tom: 0!important;
+}
+
+.mb0{
+    margin-bottom: 0!important;
+}
+
+.ml0{
+    margin-left: 0!important;
+}
+
+.mr0{
+    margin-right: 0!important;
+}
+
+.pt0{
+    padding-top: 0!important;
+}
+
+.pb0{
+    padding-bottom: 0!important;
+}
+
+.pl0{
+    padding-left: 0!important;
+}
+
+.pr0{
+    padding-right: 0!important;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.cl {
+    clear: both;
+}
+
+.omit {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
