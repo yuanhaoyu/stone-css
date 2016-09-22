@@ -1,55 +1,73 @@
-body{
-    padding: 0;
+* {
+    -webkit-text-size-adjust: none;
+}
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,
+pre,form,fieldset,legend,button,input,textarea,th,td {
     margin: 0;
-    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-    color:#333;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
     background-color: #fff;
 }
 
-
-ul{
+ul,ol{
     list-style: none;
 }
 
-
-// class style
-.p0{
-    padding:0!important;
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
 }
 
-.m0{
+a{
+    text-decoration: none;
+}
+
+button,input,select,textarea{
+    font-size: 100%;
+}
+
+// class style
+.p0 {
+    padding: 0!important;
+}
+
+.m0 {
     margin: 0!important;
 }
 
-.mt0{
-    margin-tom: 0!important;
+.mt0 {
+    margin-top: 0!important;
 }
 
-.mb0{
+.mb0 {
     margin-bottom: 0!important;
 }
 
-.ml0{
+.ml0 {
     margin-left: 0!important;
 }
 
-.mr0{
+.mr0 {
     margin-right: 0!important;
 }
 
-.pt0{
+.pt0 {
     padding-top: 0!important;
 }
 
-.pb0{
+.pb0 {
     padding-bottom: 0!important;
 }
 
-.pl0{
+.pl0 {
     padding-left: 0!important;
 }
 
-.pr0{
+.pr0 {
     padding-right: 0!important;
 }
 
@@ -69,4 +87,49 @@ ul{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+// material color style
+.red{
+    background-color: #f44336
+}
+
+.blue{
+    background-color: #2196F3;
+}
+
+.yellow{
+    background-color: #ffe838;
+}
+
+.black{
+    background-color: #212121;
+}
+
+.orange{
+    background-color: #ff9800;
+}
+
+.green{
+    background-color: #4caf50;
+}
+
+.lightBlue{
+    background-color: #03a9f4;
+}
+
+.grey{
+    background-color: #9e9e9e;
+}
+
+.grey600{
+    background-color: #757575;
+}
+
+.grey700{
+    background-color: #616161;
+}
+
+.grey800{
+    background-color: #424242;
 }
