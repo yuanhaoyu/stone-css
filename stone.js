@@ -13,3 +13,11 @@ function getUrl(paramName) {
       return "paramName error"
     }
 }
+
+function time(){
+  var myDate=new Date();
+  this.simpleDate=function(){
+    return Date();
+  };
+}
+console.log(time.simpleDate);
