@@ -14,10 +14,31 @@ function getUrl(paramName) {
     }
 }
 
-function time(){
+//获取时间函数
+var time=new function(){
   var myDate=new Date();
-  this.simpleDate=function(){
-    return Date();
+  this.getSimpleDate=function(){
+    return myDate;
   };
+  this.getWeekdat=function(){
+    return myDate.getDay();
+  }
+  this.getYear=function(){
+    return myDate.getFullYear();
+  }
+  this.getMonth=function(){
+    return myDate.getMonth()+1;
+  };
+  this.getDay=function(){
+    return myDate.getDate();
+  };
+  this.getHour=function(){
+    return myDate.getHours();
+  };
+  this.getMin=function(){
+    return myDate.getMinutes();
+  };
+  this.getSec=function(){
+    return myDate.getSeconds();
+  }
 }
-console.log(time.simpleDate);
