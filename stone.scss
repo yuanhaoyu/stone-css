@@ -82,7 +82,15 @@ button,input,select,textarea{
 .cl {
     clear: both;
 }
-
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+.tc{
+    text-align: center;
+}
 .omit {
     white-space: nowrap;
     overflow: hidden;
