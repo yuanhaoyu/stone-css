@@ -1,0 +1,1 @@
+cd .. && sass --style compressed stone.scss stone.css
