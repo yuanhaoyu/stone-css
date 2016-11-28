@@ -1,21 +1,22 @@
 //目前只支持单个
 
 //从url中获取某参数对应的值
-function getUrl(paramName) {
+function S_getUrl(paramName) {
     var url=location.search;
     //截取字符串，去掉第0个，使字符串从第一个字符开始
     var str=url.substr(1);
-    var strArray=str.split("=");
-    if(strArray[0]==paramName){
-      return strArray[1];
+    var strArray=str.split("&");
+    for(var i in strArray){
+      var thisStrArray=strArray[i].split("=");
+      if(thisStrArray[0]==paramName){
+        return thisStrArray[1];
+      }
     }
-    else {
       return "paramName error"
-    }
 }
 
 //获取时间函数
-var time=new function(){
+var S_time=new function(){
   var myDate=new Date();
   this.getSimpleDate=function(){
     return myDate;
@@ -42,3 +43,20 @@ var time=new function(){
     return myDate.getSeconds();
   }
 }
+//ajax for ie9+
+// var ajax=function(method,url,data,success,fail){
+//   var request=new XMLHttpRequest();
+//   request.open(method,url,true);
+//   request.onload = function(){
+//     if(request.status>=200 && request.status<400){
+//       var res=request.responseText;
+//       success(res);
+//     }else{
+//       // We reached our target server, but it returned an error
+//     }
+//     request.onerror=function(){
+//       fail;
+//     }
+//   }
+//   request.send(data);
+// }

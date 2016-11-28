@@ -141,3 +141,50 @@ button,input,select,textarea{
 .grey800{
     background-color: #424242;
 }
+//button style
+.S_btn,.Sb{
+  display: block;
+  width: 85px;
+  height: 35px;
+  line-height: 35px;
+  background-color: white;
+  border: 1px solid #ccc;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.S_btn_success,.Sbs{
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: white;
+}
+.S_btn_danger,.Sbd{
+  background-color:#d9534f;
+  border-color:#d43f3a;
+  color: white;
+}
+.S_btn_info,.Sbi{
+  background-color:#5bc0de;
+  border-color:#46b8da;
+  color: white;
+}
+//btn:hover
+.S_btn,.Sb:hover{
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.S_btn_success,.Sbs:hover{
+  background-color: #449d44;
+  border-color: #398439;
+  color: white;
+}
+.S_btn_danger,.Sbd:hover{
+  background-color:#c9302c;
+  border-color:#ac2925;
+  color: white;
+}
+.S_btn_info,.Sbi:hover{
+  background-color:#31b0d5;
+  border-color:#269abc;
+  color: white;
+}
