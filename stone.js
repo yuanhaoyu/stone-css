@@ -1,7 +1,7 @@
 /**
  * use S start stone.js
  * you can use [S.property] to use it！
- * -------
+ * ------- 
  * version: 版本
  * getUrl(paramName): 获取url中指定paramName的值
  * sentry(des,arr): 哨兵模式的顺序表查找
