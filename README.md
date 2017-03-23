@@ -14,40 +14,36 @@ stone.css
 >【详细可查看下面的说明文档】
 
 ---
-stone.js
 
-1. 获取url中的指定值
-``` 
-S_getUrl(paramName) : 返回 查询当前url中你指定的参数paramName对应的值 
-```
-2. 有序表查找（顺序查找哨兵模式）
-```
-S_sentry(des, arr) : arr为有序数组，des是你要查找的目标 返回查找目标下标 
-```
-3. 有序表查找 （折半查找）
-```
-S_binarySearch(des, arr) : arr为有序数组，des是你要查找的目标 返回查找目标下标 
-```
-4. 冒泡排序(改进)
-```
-S_bubbleSort(arr) :arr 为数组，返回一个从小到大的有序数组
-```
-5. 简单选择排序
-```
-S_selectSort(arr) :arr 为数组，返回一个从小到大的有序数组
-```
-6. 快速排序
-```
-S_quickSort :arr 为数组，返回一个从小到大的有序数组
-```
+## stone.js
 
-
+ * use S start stone.js
+ * you can use [S.property] to use it！
+ * -------
+ * version: 0.1
+ * getUrl(paramName): 获取url中指定paramName的值
+ * sentry(des,arr): 哨兵模式的顺序表查找
+ * binarySearch(des,arr): 折半查找
+ * bubbleSort(arr): 冒泡排序
+ * selectSort(arr): 简单选择排序
+ * quickSort(arr): 快速排序
+ * swap(arr,a,b): 交换数组的a,b的值
+ * time{
+ *  getSimpleDate(): 获取GMT时间
+ *  getWeekday(): 获取weekday
+ *  getYear():  获取年
+ *  getMonth(): 获取月
+ *  getDay():   获取日
+ *  getHour():  获取小时
+ *  getMin():   获取分钟
+ *  getSec():   获取秒
+ *  }
 
 
 
 ---
 
-stone.css
+## stone.css
 
 1. margin/padding 强制为0
 ``` 
@@ -82,5 +78,4 @@ stone.css
 .S_btn_success  : 简写=> .Sbs  【用于关于成功】
 .S_btn_danger   : 简写=> .Sbd  【用于关于警告】
 .S_btn_info     : 简写=> .Sbi  【用于关于提示】
-
 ```
