@@ -20,6 +20,8 @@
  *  getMin():   获取分钟
  *  getSec():   获取秒
  * }
+ * mySet(arr) 去除数组中重复数据 （仅保留第一次存在的位置）
+ * reArr(arr)  反转数组
  */
 (function () {
     if (!window.S) {
@@ -166,6 +168,26 @@
                 return "arr is not array";
             this.qsort(arr, 0, arr.length - 1);
             return arr;
+        },
+        mySet:function(arr){
+            if(!(arr instanceof Array))
+                return "arr is not array";
+            var newArr=[];
+            for(var i=0;i<arr.length;i++){
+              if(newArr.indexOf(arr[i])<0){
+                  newArr.push(arr[i]);
+              }
+            }
+            return newArr;
+        },
+        reArr:function(arr){
+            if(!(arr instanceof Array))
+                return "arr is not array";
+            var newArr=[];
+            for(var i=arr.length-1;i>=0;i--){
+                newArr.push(arr[i]);
+            } 
+            return newArr;
         }
     }
 }())
