@@ -1,5 +1,4 @@
-#Stone.css
----
+# Stone.css
 
 
 1. margin/padding 强制为0
@@ -8,11 +7,11 @@
 ```
 2. margin-left/right/top/bottom | padding-left/right/top/bottom 强制为0
 ```
-.ml0/.mr0/.mt0/.mb0 | .pl0/.pr0/.pt0/.pb0
+.ml0 / .mr0 / .mt0 / .mb0 | .pl0 / .pr0 / .pt0 / .pb0
 ```
 3. 左/右浮动
 ```
-.l/.r
+.l / .r
 ```
 4. 清除浮动
 ```
@@ -24,15 +23,5 @@
 ```
 6. 文字居左/居右/居中
 ```
-.tl/.tr/.tc
-```
-7. 按钮样式（基础）
-```
-.S_btn  : 简写=> .Sb
-```
-8. 按钮样式扩展 （要基于基础的按钮样式）
-```
-.S_btn_success  : 简写=> .Sbs  【用于关于成功】
-.S_btn_danger   : 简写=> .Sbd  【用于关于警告】
-.S_btn_info     : 简写=> .Sbi  【用于关于提示】
+.tl / .tr / .tc  || .text-left / .text-right /.text-center
 ```
