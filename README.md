@@ -1,14 +1,21 @@
 # Stone
+<code>当前版本：0.2</code>
 
-1. Stone 项目包括(JS/CSS)2个部分
-
-   stone.js : 常用的JS函数.
+## 介绍
   
-   stone.css : 基础的css配置和一些常用的样式配置。
+  1. stone.css
+
+     由于stone内置了normalize，所以你可以用stone.css初始化你的项目，同时为了满足中文字体，在字体上也融合amazeui的部分。除此之外，stone.css还封装了一些常用的类名可供开发者自我选择。
+
+  2. stone.js
+     
+     封装了部分常用的JS函数，具体请参考使用说明。
  
-2. 使用:
+## 使用
 
-   <a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneCss.md">Stone.css</a>
+   1. <a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneCss.md">开始使用 Stone.css</a>
   
-   <a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneJs.md">Stone.js</a>
+   2. <a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneJs.md">开始使用 Stone.js</a>
+
+
 

@@ -1,15 +1,12 @@
-* {
-    -webkit-text-size-adjust: none;
-    padding: 0;
-    margin: 0;
-}
+//添加normalize.css作为依赖
+@import './normalize.scss';
 
+//字体设计使用Amaze UI
 body {
-    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    color: #333;
-    background-color: #fff;
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+  color: #333;
+  background-color: #fff;  
 }
-
 
 ul,ol{
     list-style: none;
