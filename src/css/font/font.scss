@@ -1,0 +1,29 @@
+.text-omit {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-omit {
+    &-2 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        word-break: break-all;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+    }
+    &-3 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        word-break: break-all;
+        overflow: hidden;
+        -webkit-line-clamp: 3;        
+    }
+}
+
+.text-omit-n {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+}

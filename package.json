@@ -1,0 +1,33 @@
+{
+  "name": "stone",
+  "version": "0.0.3",
+  "description": "<code>当前版本：0.2</code>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-js": "parcel ./src/js/stone.js -d dev",
+    "dev-css": "parcel ./src/css/stone.scss -d dev",
+    "build-js": "parcel build ./src/js/stone.js  -d dist",
+    "build-css": "parcel build ./src/css/stone.scss -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanhaoyu/stone.git"
+  },
+  "author": "houn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuanhaoyu/stone/issues"
+  },
+  "homepage": "https://github.com/yuanhaoyu/stone#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "postcss-modules": "^1.1.0"
+  }
+}

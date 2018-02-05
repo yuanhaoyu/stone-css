@@ -1,21 +1,28 @@
 # Stone
-<code>当前版本：0.2</code>
+<code>Version - 0.0.3</code>
 
-## 介绍
+## Introduction
   
-  1. stone.css
+### stone.css
 
-     由于stone内置了normalize，所以你可以用stone.css初始化你的项目，同时为了满足中文字体，在字体上也融合amazeui的部分。除此之外，stone.css还封装了一些常用的类名可供开发者自我选择。
+stone不仅内置了**normalize**，并在此基础上为你更深度定制初始化css，同时也提供众多实用的类名（已打上autoprefixer解决兼容，请放心食用🍰）。
 
-  2. stone.js
+### <del>stone.js</del>
      
-     封装了部分常用的JS函数，具体请参考使用说明。
+<del>封装了部分常用的JS函数，具体请参考使用说明。</del>
  
-## 使用
+## Usage
 
-   1. <a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneCss.md">开始使用 Stone.css</a>
+<a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneCss.md">How to use Stone.css</a>
   
-   2. <a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneJs.md">开始使用 Stone.js</a>
+<del><a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneJs.md">How to use Stone.js</a><del>
+
+## Feature
+
+- [ ] more class support
+
+- [ ] new stone.js come back
+
 
 
 

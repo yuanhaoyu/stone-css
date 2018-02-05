@@ -1,0 +1,72 @@
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.cl {
+    clear: both;
+}
+
+.row-cl {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.row-list, .row-index {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.row-other, .row-header {
+    padding:0 15px;
+}
+
+.row-form {
+    padding: 0 20px;
+}
+
+.container {
+    margin:0 auto;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.m-b {
+    &-20 {
+        margin-bottom: 20px;
+    }
+}
+
+.p-l {
+    &-10 {
+        padding-left: 10px;
+    }
+    &-15 {
+        padding-left: 15px;
+    }
+    &-20 {
+        padding-left: 20px;
+    }
+}
+
+// 遮罩
+.shade {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000000;
+    opacity: 0.7;
+    top: 0;
+}

@@ -1,0 +1,31 @@
+// 文字颜色
+.text {
+    &-grey {
+        color: #888;
+    }
+    &-black {
+        color: #111;
+    }
+    &-blue {
+        color: #03a9f4;
+    }
+    &-red {
+        color: #e53935;
+    }
+    &-white {
+        color: white;
+    }
+}
+
+// 背景颜色
+.grey {
+    background-color: #f0f0f0;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.red {
+    background-color: #e53935;
+}

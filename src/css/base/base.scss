@@ -1,0 +1,30 @@
+//字体设计使用Amaze UI
+
+body {
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+    color: #333;
+    font-size: 14px;
+    background-color: #fff;
+}
+  
+ul,ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        text-decoration: none;
+    }    
+}
+  
+p {
+    margin: 0;
+    padding: 0;
+}
+  
+  
+  

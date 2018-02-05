@@ -1,121 +1,25 @@
-//添加normalize.css作为依赖
-@import './normalize.scss';
+// 使用normalize.css作为依赖
+@import './dependence/normalize.scss';
 
-//字体设计使用Amaze UI
-body {
-  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
-  color: #333;
-  background-color: #fff;  
-}
+// 使用base.scss初始化
+@import './base/base.scss';
 
-ul,ol{
-    list-style: none;
-}
+// 使用font.scss 作为文字相关扩展
+@import './font/font.scss';
 
-a{
-    text-decoration: none;
-}
+// 使用flex.scss 作为弹性布局扩展
+@import './flex/flex.scss';
 
-a, a:hover {
-	color: #000;
-	text-decoration: none;
-}
+// 使用ex.scss作为总体扩展
+@import './ex/ex.scss';
 
+// 使用line.scss解决0.5px的问题
+@import './outline/outline.scss';
 
-.p0 {
-    padding: 0!important;
-}
+// 使用icon.scss 作为css图标扩展
+@import './icon/icon.scss';
 
-.m0 {
-    margin: 0!important;
-}
+// 使用color.scss 作为颜色扩展
+@import './color/color.scss';
 
-.mt0 {
-    margin-top: 0!important;
-}
-
-.mb0 {
-    margin-bottom: 0!important;
-}
-
-.ml0 {
-    margin-left: 0!important;
-}
-
-.mr0 {
-    margin-right: 0!important;
-}
-
-.pt0 {
-    padding-top: 0!important;
-}
-
-.pb0 {
-    padding-bottom: 0!important;
-}
-
-.pl0 {
-    padding-left: 0!important;
-}
-
-.pr0 {
-    padding-right: 0!important;
-}
-
-.l {
-    float: left;
-}
-
-.r {
-    float: right;
-}
-
-.cl {
-    clear: both;
-}
-.tl,.text-left{
-    text-align: left;
-}
-.tr,.text-right{
-    text-align: right;
-}
-.tc,.text-center{
-    text-align: center;
-}
-.omit {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.container{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px
-}
-
-.container:before,.container:after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
-@media screen and (min-width: 768px) { 
-  .container {
-      width: 750px;
-  }
-} 
-
-@media screen and (min-width: 992px) { 
-  .container {
-      width: 970px;
-  }
-} 
-
-
-@media screen and (min-width: 1200px) { 
-  .container {
-      width: 1170px;
-  }
-}  
+// 由于配置postcss 所以全局兼容-放心食用

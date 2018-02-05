@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dev/stone.css">
+    <style>
+    body {
+        padding: 20px;
+    }
+    .test {
+        width: 200px;
+        height: 20px;
+        background: grey;
+    }
+    p {
+        width: 200px;
+        height: 20px;
+        background: greenyellow;
+    }
+    .test-text {
+        width: 100px;
+        height: 20px;
+        padding: 2px;
+    }
+    .test-text2 {
+        width: 100px;
+        height: 40px;
+        padding: 2px;
+        line-height: 20px;
+    }
+    .test-outline {
+        width: 120px;
+        height: 60px;
+        background: wheat;
+        margin-left: 10px;
+    }
+    .test-outline2 {
+        width: 120px;
+        height: 60px;
+        background: wheat;
+        border-top: 1px solid black;
+        margin-left: 10px;        
+    }
+    .test-outline3 {
+        height: 100%;
+    }
+    .float-test {
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <h4>* 普通div 显示</h4>
+    <div class="test"></div>
+    <h4>* 普通p 显示</h4>
+    <p>hello world</p>
+    <h4>* ul-li 显示</h4>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <h4>* 单行省略 显示</h4>
+    <div class="text-omit test-text">中国的超级阿萨达萨达爱上爱我哦哦</div>
+    <h4>* 多行省略 显示</h4>    
+    <div class="text-omit-2 test-text2">中国的超级阿萨达萨达爱上爱我哦哦</div>
+    <h4>* 0.5px 显示 （上下）</h4>        
+    <div class="test-outline outline-t outline-b"></div>
+    <h4>* 0.5px 参照</h4>        
+    <div class="test-outline2"></div>
+    <h4>* 0.5px 显示 （左右）</h4>        
+    <div class="test-outline outline-l outline-r"></div>
+    <h4>* 0.5px 显示 （上下左右）</h4>        
+    <div class="test-outline outline-l outline-r">
+        <div class="test-outline3 outline-t outline-b"></div>
+    </div>
+    <h4>左右浮动 & 清楚浮动row</h4>        
+    <div class="float-test">
+        <div class="row-cl">
+                <div class="l">1</div>
+                <div class="r">2</div>
+        </div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h4>* 箭头</h4>      
+    <span class="arrow-t"></span>
+    <span class="arrow-b"></span>    
+    <span class="arrow-l"></span>    
+    <span class="arrow-r"></span>
+    <h4>* loading</h4>
+    <i class="loading"></i> 
+</body>
+</html>
