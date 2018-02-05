@@ -13,7 +13,7 @@ stone不仅内置了**normalize**，并在此基础上为你更深度定制初�
  
 ## Usage
 
-<a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneCss.md">How to use Stone.css</a>
+<a href="https://github.com/yuanhaoyu/stone/blob/master/des/stone.css.md">How to use Stone.css</a>
   
 <del><a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneJs.md">How to use Stone.js</a><del>
 
