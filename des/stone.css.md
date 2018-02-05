@@ -174,6 +174,6 @@ row 行容器扩展
 
 ## BTW
 
-当然你也可以访问<a href="https://github.com/yuanhaoyu/stone/blob/master/test/index.html">传送门</a>，看看部分css在html中的表现
+当然你也可以访问<a href="https://yuanhaoyu.github.io/stone/test/index.html">传送门</a>，看看部分css在html中的表现
 
 
