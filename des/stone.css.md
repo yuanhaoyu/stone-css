@@ -11,6 +11,9 @@
 - Outline
 - Ex
 
+如果你在使用移动布局，并且需要rem的时候这里强烈建议使用
+
+<a href="https://github.com/yuanhaoyu/h-auto">**h-auto.js**</a>
 
 ## Quick start
 
