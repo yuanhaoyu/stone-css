@@ -1,32 +1,27 @@
 {
   "name": "stone",
-  "version": "0.0.3",
-  "description": "<code>当前版本：0.2</code>",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Use stone-css to initialize your project and begin your enjoyable programming",
+  "main": "./dist/stone-css.css",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-js": "parcel ./src/js/stone.js -d dev",
-    "dev-css": "parcel ./src/css/stone.scss -d dev",
-    "build-js": "parcel build ./src/js/stone.js  -d dist",
-    "build-css": "parcel build ./src/css/stone.scss -d dist"
+    "dev": "parcel ./src/index.scss -d dev",
+    "build": "parcel build ./src/index.scss -o dist/stone-css.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuanhaoyu/stone.git"
+    "url": "git+https://github.com/yuanhaoyu/stone-css"
   },
   "author": "houn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuanhaoyu/stone/issues"
+    "url": "https://github.com/yuanhaoyu/stone-css/issues"
   },
-  "homepage": "https://github.com/yuanhaoyu/stone#readme",
-  "dependencies": {
-    "node-sass": "^4.7.2"
-  },
+  "homepage": "https://github.com/yuanhaoyu/stone-css#readme",
   "devDependencies": {
+    "node-sass": "^4.7.2",    
     "autoprefixer": "^7.2.5",
     "postcss-modules": "^1.1.0"
   }

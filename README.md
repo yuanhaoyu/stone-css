@@ -1,27 +1,36 @@
-# Stone
-<code>Version - 0.0.3</code>
+# stone-css
+![stone-css-0.0.1](https://img.shields.io/badge/stone--css-0.0.1-orange.svg)
 
 ## Introduction
-  
-### stone.css
 
-stone不仅内置了**normalize**，并在此基础上为你更深度定制初始化css，同时也提供众多实用的类名（已打上autoprefixer解决兼容，请放心食用🍰）。
+Use stone-css to initialize your project and begin your enjoyable programming. 
 
-### <del>stone.js</del>
-     
-<del>封装了部分常用的JS函数，具体请参考使用说明。</del>
+The stone-css features include style initialization, class name extensions, style compatibility, and so on. 
+
+🍰 ➕ 😄
+
+## Installation
+
+### NPM
+
+``` bash
+npm install stone-css --save
+```
+### Git
+
+``` bash
+git clone https://github.com/yuanhaoyu/stone-css.git
+
+```
+
+Then find stone-css in <code> /dist/stone-css.css </code>
  
-## Usage
+## More
 
-<a href="https://www.kancloud.cn/houn/stone/523805">How to use Stone.css</a>
+<a href="https://www.kancloud.cn/houn/stone/523805">How to use stone-css</a>
   
-<del><a href="https://github.com/yuanhaoyu/stone/blob/master/des/stoneJs.md">How to use Stone.js</a><del>
 
-## Feature
 
-- [ ] more class support
-
-- [ ] new stone.js come back
 
 
 
