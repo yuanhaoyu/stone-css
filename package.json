@@ -1,5 +1,5 @@
 {
-  "name": "stone",
+  "name": "stone-css",
   "version": "0.0.1",
   "description": "Use stone-css to initialize your project and begin your enjoyable programming",
   "main": "./dist/stone-css.css",
